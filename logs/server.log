@@ -1,0 +1,64 @@
+2023-09-24 16:20:01,952 ERROR: An error occurred in send_and_monitor_whatsapp_message: Message: 
+Stacktrace:
+#0 0x55837a82e6b3 <unknown>
+#1 0x55837a5041e7 <unknown>
+#2 0x55837a54b566 <unknown>
+#3 0x55837a54b651 <unknown>
+#4 0x55837a588a74 <unknown>
+#5 0x55837a56d0ed <unknown>
+#6 0x55837a586322 <unknown>
+#7 0x55837a56ce93 <unknown>
+#8 0x55837a53f934 <unknown>
+#9 0x55837a54071e <unknown>
+#10 0x55837a7f3cb8 <unknown>
+#11 0x55837a7f7bf0 <unknown>
+#12 0x55837a80219c <unknown>
+#13 0x55837a7f8808 <unknown>
+#14 0x55837a7c527f <unknown>
+#15 0x55837a81ce88 <unknown>
+#16 0x55837a81d059 <unknown>
+#17 0x55837a82d843 <unknown>
+#18 0x7f7287f3ab43 <unknown>
+ [in /home/qwe/Pulpit/WP_API/app.py:74]
+2023-09-24 16:20:02,119 INFO: Monitoring started for contact: Test [in /home/qwe/Pulpit/WP_API/app.py:30]
+2023-09-24 16:20:07,731 ERROR: An error occurred in send_and_monitor_whatsapp_message: Message: 
+ [in /home/qwe/Pulpit/WP_API/app.py:74]
+2023-09-24 16:20:07,848 INFO: Monitoring started for contact: Test [in /home/qwe/Pulpit/WP_API/app.py:30]
+2023-09-24 19:13:24,337 INFO: Received Message: kliknij tutaj, aby wyświetlić informacje o grupie [in /home/qwe/Pulpit/WP_API/app.py:71]
+2023-09-24 19:13:24,397 INFO: Received Message: test [in /home/qwe/Pulpit/WP_API/app.py:71]
+2023-09-24 19:13:24,425 INFO: Received Message: gjfjgfjfh [in /home/qwe/Pulpit/WP_API/app.py:71]
+2023-09-24 19:13:24,444 INFO: Received Message: Cffg [in /home/qwe/Pulpit/WP_API/app.py:71]
+2023-09-24 19:13:24,459 INFO: Received Message: fdfd [in /home/qwe/Pulpit/WP_API/app.py:71]
+2023-09-24 19:13:24,479 INFO: Received Message: vdsdfs [in /home/qwe/Pulpit/WP_API/app.py:71]
+2023-09-24 19:13:24,496 INFO: Received Message: sdfsd [in /home/qwe/Pulpit/WP_API/app.py:71]
+2023-09-24 19:13:24,510 INFO: Received Message: cdssa [in /home/qwe/Pulpit/WP_API/app.py:71]
+2023-09-24 19:13:24,531 INFO: Received Message: ghj [in /home/qwe/Pulpit/WP_API/app.py:71]
+2023-09-24 19:13:24,563 INFO: Received Message: ffff [in /home/qwe/Pulpit/WP_API/app.py:71]
+2023-09-24 19:13:24,588 INFO: Received Message: fffffffff [in /home/qwe/Pulpit/WP_API/app.py:71]
+2023-09-24 19:13:24,605 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/WP_API/app.py:71]
+2023-09-24 19:13:24,626 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/WP_API/app.py:71]
+2023-09-24 19:13:24,636 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/WP_API/app.py:71]
+2023-09-24 19:13:24,801 INFO: Monitoring started for contact: Test [in /home/qwe/Pulpit/WP_API/app.py:30]
+2023-09-24 19:14:19,872 ERROR: An error occurred in send_and_monitor_whatsapp_message: Message: 
+Stacktrace:
+#0 0x5654eb76b6b3 <unknown>
+#1 0x5654eb4411e7 <unknown>
+#2 0x5654eb488566 <unknown>
+#3 0x5654eb488651 <unknown>
+#4 0x5654eb4c5a74 <unknown>
+#5 0x5654eb4aa0ed <unknown>
+#6 0x5654eb4c3322 <unknown>
+#7 0x5654eb4a9e93 <unknown>
+#8 0x5654eb47c934 <unknown>
+#9 0x5654eb47d71e <unknown>
+#10 0x5654eb730cb8 <unknown>
+#11 0x5654eb734bf0 <unknown>
+#12 0x5654eb73f19c <unknown>
+#13 0x5654eb735808 <unknown>
+#14 0x5654eb70227f <unknown>
+#15 0x5654eb759e88 <unknown>
+#16 0x5654eb75a059 <unknown>
+#17 0x5654eb76a843 <unknown>
+#18 0x7f6e7b0eab43 <unknown>
+ [in /home/qwe/Pulpit/WP_API/app.py:74]
+2023-09-24 19:14:19,983 INFO: Monitoring started for contact: Test [in /home/qwe/Pulpit/WP_API/app.py:30]
