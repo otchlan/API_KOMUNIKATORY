@@ -1,5 +1,3 @@
-# database/models/message_model.py
-
 from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, Text
 from sqlalchemy.orm import relationship
 from .base import Base

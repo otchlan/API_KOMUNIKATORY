@@ -1,0 +1,13 @@
+2023-09-30 12:00:04,727 - INFO - Columns in 'messages' table: []
+2023-09-30 12:00:04,729 - WARNING -  * Debugger is active!
+2023-09-30 12:00:04,730 - INFO -  * Debugger PIN: 601-545-713
+2023-09-30 12:01:28,142 - INFO -  * Detected change in '/home/qwe/Pulpit/asystent/database/db_flask_test_app/app.py', reloading
+2023-09-30 12:01:28,464 - INFO - Columns in 'messages' table: []
+2023-09-30 12:01:28,467 - WARNING -  * Debugger is active!
+2023-09-30 12:01:28,467 - INFO -  * Debugger PIN: 601-545-713
+2023-09-30 12:03:13,207 - INFO -  * Detected change in '/home/qwe/Pulpit/asystent/database/db_flask_test_app/app.py', reloading
+2023-09-30 12:03:13,533 - INFO - Columns in 'messages' table: []
+2023-09-30 12:03:13,536 - WARNING -  * Debugger is active!
+2023-09-30 12:03:13,536 - INFO -  * Debugger PIN: 601-545-713
+2023-09-30 12:03:22,473 - ERROR - No columns found in the 'messages' table.
+2023-09-30 12:03:22,473 - INFO - 127.0.0.1 - - [30/Sep/2023 12:03:22] "[35m[1mGET / HTTP/1.1[0m" 500 -

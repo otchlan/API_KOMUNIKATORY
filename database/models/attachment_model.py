@@ -1,6 +1,5 @@
-# database/models/attachment_model.py
-
 from sqlalchemy import Column, Integer, String, ForeignKey, LargeBinary
+from sqlalchemy.orm import relationship
 from .base import Base
 
 class Attachment(Base):

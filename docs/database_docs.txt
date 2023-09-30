@@ -1,0 +1,75 @@
+## Instrukcja do dokumentacji inicjalizacji i zarządzania bazą danych
+
+### Wstęp
+
+Niniejsza instrukcja opisuje, jak zainicjować, zarządzać oraz otwierać i zamykać bazę danych w projekcie `asystent`.
+
+### Struktura projektu
+
+```
+asystent
+│
+├── app.py
+├── attachments
+├── config
+├── database
+│   ├── init_db.py
+│   ├── db_session.py
+│   ├── models
+│   │   ├── attachment_model.py
+│   │   ├── email_model.py
+│   │   ├── message_model.py
+│   │   ├── telegram_model.py
+│   │   └── whatsapp_model.py
+│   └── migrations
+│
+├── logs
+│   ├── mail_api.log
+│   ├── server.log
+│   ├── telegram_api.log
+│   └── wp_api.log
+│
+├── mail_api
+│   ├── mail_api.py
+│   └── tests.py
+│
+├── telegram_api
+│   ├── telegram_api.py
+│   └── tests.py
+│
+├── wp_api
+│   ├── wp_api.py
+│   └── tests.py
+│
+└── test.db
+```
+
+### Inicjalizacja bazy danych
+
+1. Przejdź do katalogu głównego projektu:
+   ```
+   cd ~/Pulpit/asystent
+   ```
+
+2. Uruchom skrypt inicjalizacji bazy danych:
+   ```
+   python3 database/init_db.py
+   ```
+
+   Po pomyślnym uruchomieniu powinieneś zobaczyć komunikat: `Database initialized!`.
+
+### Zarządzanie bazą danych
+
+Baza danych jest zarządzana za pomocą skryptów i modułów w katalogu `database`. Główne skrypty i moduły do zarządzania bazą danych to:
+
+- `init_db.py`: Skrypt do inicjalizacji bazy danych.
+- `db_session.py`: Moduł zawierający funkcje do tworzenia sesji z bazą danych.
+- `models`: Katalog zawierający modele tabel w bazie danych.
+
+### Otwieranie i zamykanie bazy danych
+
+Baza danych jest automatycznie otwierana podczas tworzenia sesji za pomocą funkcji w `db_session.py` i zamykana po zakończeniu sesji. Nie ma potrzeby ręcznego otwierania i zamykania bazy danych.
+
+### Podsumowanie
+
+Zarządzanie bazą danych w projekcie `asystent` jest proste i intuicyjne dzięki modularnej strukturze i dedykowanym skryptom. Pamiętaj, aby regularnie tworzyć kopie zapasowe bazy danych i monitorować jej stan, aby zapewnić niezawodność i bezpieczeństwo danych.

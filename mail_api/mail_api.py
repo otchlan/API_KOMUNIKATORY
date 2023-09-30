@@ -1,9 +1,15 @@
+import sys
+sys.path.append("/home/qwe/Pulpit/asystent")
+
 import imaplib
 import email
 from bs4 import BeautifulSoup
+from database.db_session import SessionLocal
+from database.models.message_model import Message
 
-EMAIL = 'asystentai@deeptechlabs.pl'
-PASSWORD = '12345678!'
+EMAIL = '@deeptechlabs.pl'
+PASSWORD = ''
+
 
 # Nawiazuje polaczenie z serwerem IMAP i loguje sie na konto e-mail
 def connect_to_server(email, password):
@@ -61,27 +67,73 @@ def extract_email_body(email_message):
     
     return body.strip()
 
+def extract_email_footer(email_message):
+    body = extract_email_body(email_message)
+    if "Pozdrawiam" in body:
+        return body.split("Pozdrawiam", 1)[1].strip()
+    return None
+
+def extract_original_content(email_message):
+    body = extract_email_body(email_message)
+    # Zakładając, że oryginalna treść kończy się przed "Pozdrawiam"
+    if "Pozdrawiam" in body:
+        return body.split("Pozdrawiam", 1)[0].strip()
+    return body  # Jeśli nie ma "Pozdrawiam", zwróć całą treść jako oryginalną
+
+
+def save_email_to_db(subject, sender, recipients, content, footer, original_content):
+    # Create a new session
+    session = SessionLocal()
+
+    # Create a new message instance
+    new_message = Message(
+        source="email",
+        subject=subject,
+        sender=sender,
+        recipients=recipients,
+        content=content,
+        footer=footer,
+        original_content=original_content
+    )
+
+    # Add the new message to the session
+    session.add(new_message)
+
+    # Commit the session to save the data
+    session.commit()
+
+    # Close the session
+    session.close()
+
 
 def main():
     mail = connect_to_server(EMAIL, PASSWORD)
     email_nums = get_all_emails(mail)
     
     for num in email_nums:
-         email_message = get_email_content(mail, num)
-         subject, sender, recipients = extract_email_details(email_message)
-         body = extract_email_body(email_message)
-         
-         main_content, footer = separate_footer_from_body(body)
-         
-         print("Temat:", subject)
-         print("Nadawca:", sender)
-         print("Adresaci:", recipients)
-         print("Treść:", main_content)
-         if footer:
-             print("Stopka:", footer)
-         print("------------------------------------------------------")
+        email_message = get_email_content(mail, num)
+        
+        # Extracting details from the email
+        subject, sender, recipients = extract_email_details(email_message)
+        body = extract_email_body(email_message)
+        
+        # Assuming you have functions to extract footer and original content
+        footer = extract_email_footer(email_message)
+        original_content = extract_original_content(email_message)
+
+        # Save the email data to the database
+        save_email_to_db(subject, sender, recipients, body, footer, original_content)
+        
+        # Optional: Print the email details (you can remove this if not needed)
+        print("Temat:", subject)
+        print("Nadawca:", sender)
+        print("Adresaci:", recipients)
+        print("Treść:", body)
+        print("------------------------------------------------------")
     
     mail.logout()
 
 if __name__ == "__main__":
     main()
+
+
