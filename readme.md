@@ -1,9 +1,13 @@
 
 
-[] Stworzyć strukturę .JSON dla wiadomości
+Baza danych:
+[x] stworzyć część aplikacji odpowiedzialną za inicjalizowanie bazy
+[x] stworzyć serwis wyświetlający zawartość bazy
+[] podpiąć bazę pod endpointy od przetwarzania wiadomości
 
+Sztuczna:
 [] Podpiąć model
-[] Skonfigurować .JSON pod model
+[] Skonfigurować bazę pod model
 
 
 Telegram:
