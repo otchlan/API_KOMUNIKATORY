@@ -11,3 +11,49 @@
 2023-09-30 12:03:13,536 - INFO -  * Debugger PIN: 601-545-713
 2023-09-30 12:03:22,473 - ERROR - No columns found in the 'messages' table.
 2023-09-30 12:03:22,473 - INFO - 127.0.0.1 - - [30/Sep/2023 12:03:22] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-09-30 13:29:20,812 - ERROR - No columns found in the 'messages' table.
+2023-09-30 13:29:20,812 - INFO - 127.0.0.1 - - [30/Sep/2023 13:29:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-09-30 14:05:46,693 - INFO - 127.0.0.1 - - [30/Sep/2023 14:05:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-09-30 14:06:02,046 - INFO - 127.0.0.1 - - [30/Sep/2023 14:06:02] "[33mGET /static/css/ide.css HTTP/1.1[0m" 404 -
+2023-09-30 14:06:02,050 - INFO - 127.0.0.1 - - [30/Sep/2023 14:06:02] "[33mGET /static/images/unlock.svg HTTP/1.1[0m" 404 -
+2023-09-30 14:42:03,143 - ERROR - No columns found in the 'messages' table.
+2023-09-30 14:42:03,157 - INFO - 127.0.0.1 - - [30/Sep/2023 14:42:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-09-30 14:48:43,039 - ERROR - No columns found in the 'messages' table.
+2023-09-30 14:48:43,039 - INFO - 127.0.0.1 - - [30/Sep/2023 14:48:43] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-09-30 14:49:18,644 - INFO -  * Detected change in '/home/qwe/Pulpit/asystent/database/db_flask_test_app/app.py', reloading
+2023-09-30 14:49:19,088 - INFO - Columns in 'messages' table: []
+2023-09-30 14:49:19,093 - WARNING -  * Debugger is active!
+2023-09-30 14:49:19,093 - INFO -  * Debugger PIN: 601-545-713
+2023-09-30 14:49:36,745 - INFO - Columns in 'messages' table: []
+2023-09-30 14:49:36,750 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-30 14:49:36,750 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-30 14:49:36,750 - INFO -  * Restarting with stat
+2023-09-30 14:49:36,999 - INFO - Columns in 'messages' table: []
+2023-09-30 14:49:37,002 - WARNING -  * Debugger is active!
+2023-09-30 14:49:37,002 - INFO -  * Debugger PIN: 601-545-713
+2023-09-30 14:49:42,818 - ERROR - No columns found in the 'messages' table.
+2023-09-30 14:49:42,820 - INFO - 127.0.0.1 - - [30/Sep/2023 14:49:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-09-30 17:56:49,987 - INFO - Columns in 'messages' table: []
+2023-09-30 17:56:49,995 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-30 17:56:49,995 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-30 17:56:49,996 - INFO -  * Restarting with stat
+2023-09-30 17:56:50,242 - INFO - Columns in 'messages' table: []
+2023-09-30 17:56:50,245 - WARNING -  * Debugger is active!
+2023-09-30 17:56:50,245 - INFO -  * Debugger PIN: 110-420-338
+2023-09-30 17:57:12,080 - INFO - 127.0.0.1 - - [30/Sep/2023 17:57:12] "[33mGET /static/css/ide.css HTTP/1.1[0m" 404 -
+2023-09-30 17:57:12,082 - INFO - 127.0.0.1 - - [30/Sep/2023 17:57:12] "[33mGET /static/images/unlock.svg HTTP/1.1[0m" 404 -
+2023-09-30 17:57:12,734 - INFO - 127.0.0.1 - - [30/Sep/2023 17:57:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-09-30 17:57:14,462 - ERROR - No columns found in the 'messages' table.
+2023-09-30 17:57:14,463 - INFO - 127.0.0.1 - - [30/Sep/2023 17:57:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-09-30 17:57:28,470 - INFO - Columns in 'messages' table: []
+2023-09-30 17:57:28,485 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-30 17:57:28,485 - INFO - [33mPress CTRL+C to quit[0m
+2023-09-30 17:57:28,486 - INFO -  * Restarting with stat
+2023-09-30 17:57:28,920 - INFO - Columns in 'messages' table: []
+2023-09-30 17:57:28,923 - WARNING -  * Debugger is active!
+2023-09-30 17:57:28,924 - INFO -  * Debugger PIN: 110-420-338
+2023-09-30 17:57:30,935 - ERROR - No columns found in the 'messages' table.
+2023-09-30 17:57:30,935 - INFO - 127.0.0.1 - - [30/Sep/2023 17:57:30] "[35m[1mGET / HTTP/1.1[0m" 500 -

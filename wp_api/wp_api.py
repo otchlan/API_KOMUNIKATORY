@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from flask import Flask, jsonify, render_template, request
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -10,6 +14,8 @@ from logging.handlers import RotatingFileHandler
 import traceback
 import time
 
+from database.db_session import SessionLocal, init_db
+from database.models.whatsapp_model import WhatsAppMessage
 
 app = Flask(__name__)
 
@@ -51,10 +57,20 @@ def open_whatsapp_and_scan_qr(driver):
 
 # Wybiera czat na podstawie podanej nazwy uzytkownika lub grupy
 def select_chat(driver, target):
-    chat = WebDriverWait(driver, 60).until(
-        EC.element_to_be_clickable((By.XPATH, f"//span[@title='{target}']"))
-    )
-    chat.click()
+    try:
+        if not driver.window_handles:
+            raise Exception("No browser window found")
+
+        driver.switch_to.window(driver.window_handles[0])  # Switch to the main window
+
+        chat = WebDriverWait(driver, 60).until(
+            EC.element_to_be_clickable((By.XPATH, f"//span[@title='{target}']"))
+        )
+        chat.click()
+    except Exception as e:
+        app.logger.error(f"Error in select_chat: {e}")
+        print(f"Error in select_chat: {e}")
+
 
 # Wysyla wiadomosc do wybranego czatu
 def send_message(driver, message):
@@ -63,7 +79,19 @@ def send_message(driver, message):
     )
     message_input.send_keys(message + Keys.ENTER)
 
-# Monitoruje nadchodzace wiadomosci w wybranym czacie
+def save_whatsapp_message_to_db(sender, message):
+    session = SessionLocal()
+
+    new_message = WhatsAppMessage(
+        sender=sender,
+        message=message
+    )
+
+    session.add(new_message)
+    session.commit()
+    session.close()
+
+
 def monitor_incoming_messages(driver):
     last_messages_count = 0
     while True:
@@ -75,10 +103,14 @@ def monitor_incoming_messages(driver):
             if len(all_messages) > last_messages_count:
                 new_messages = all_messages[last_messages_count:]
                 for msg in new_messages:
-                    msg_text = msg.text
-                    received_messages.append(msg_text)
-                    save_to_txt_file(msg_text)
-                    app.logger.info(f"Received Message: {msg_text}")
+                      msg_text = msg.text
+                      sender_name = "Extracted Sender Name"
+                      
+                      save_whatsapp_message_to_db(sender_name, msg_text)
+                      
+                      received_messages.append(msg_text)
+                      save_to_txt_file(msg_text)
+                      app.logger.info(f"Received Message: {msg_text}")
                 last_messages_count = len(all_messages)
             
             time.sleep(30)
@@ -115,5 +147,5 @@ if __name__ == '__main__':
 
     app.logger.setLevel(logging.INFO)
     app.logger.addHandler(log_handler)
-    
-    app.run(debug=True)
+
+    app.run(debug=True, port=5005)

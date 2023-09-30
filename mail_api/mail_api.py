@@ -1,5 +1,6 @@
 import sys
-sys.path.append("/home/qwe/Pulpit/asystent")
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import imaplib
 import email
@@ -7,8 +8,8 @@ from bs4 import BeautifulSoup
 from database.db_session import SessionLocal
 from database.models.message_model import Message
 
-EMAIL = '@deeptechlabs.pl'
-PASSWORD = ''
+EMAIL = 'asystentai@deeptechlabs.pl'
+PASSWORD = '12345678!'
 
 
 # Nawiazuje polaczenie z serwerem IMAP i loguje sie na konto e-mail

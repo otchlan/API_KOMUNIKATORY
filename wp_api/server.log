@@ -1,0 +1,699 @@
+2023-09-30 14:06:38,901 ERROR: An error occurred in send_and_monitor_whatsapp_message: Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+#0 0x5609675b16b3 <unknown>
+#1 0x5609672871e7 <unknown>
+#2 0x56096727f2f3 <unknown>
+#3 0x56096726fd17 <unknown>
+#4 0x560967271191 <unknown>
+#5 0x560967270053 <unknown>
+#6 0x56096726f06c <unknown>
+#7 0x56096726efde <unknown>
+#8 0x56096726dbe4 <unknown>
+#9 0x56096726e06a <unknown>
+#10 0x5609672898ce <unknown>
+#11 0x560967309ad5 <unknown>
+#12 0x5609672f00c2 <unknown>
+#13 0x560967309322 <unknown>
+#14 0x5609672efe93 <unknown>
+#15 0x5609672c2934 <unknown>
+#16 0x5609672c371e <unknown>
+#17 0x560967576cb8 <unknown>
+#18 0x56096757abf0 <unknown>
+#19 0x56096758519c <unknown>
+#20 0x56096757b808 <unknown>
+#21 0x56096754827f <unknown>
+#22 0x56096759fe88 <unknown>
+#23 0x5609675a0059 <unknown>
+#24 0x5609675b0843 <unknown>
+#25 0x7ff9e27e8b43 <unknown>
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:111]
+2023-09-30 14:06:39,033 INFO: Monitoring started for contact: Test [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:41]
+2023-09-30 14:07:44,795 ERROR: An error occurred in send_and_monitor_whatsapp_message: Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+#0 0x5636443276b3 <unknown>
+#1 0x563643ffd1e7 <unknown>
+#2 0x563643ff52f3 <unknown>
+#3 0x563643fe5d17 <unknown>
+#4 0x563643fe7191 <unknown>
+#5 0x563643fe6053 <unknown>
+#6 0x563643fe506c <unknown>
+#7 0x563643fe4fde <unknown>
+#8 0x563643fe3be4 <unknown>
+#9 0x563643fe406a <unknown>
+#10 0x563643fff8ce <unknown>
+#11 0x56364407fad5 <unknown>
+#12 0x5636440660c2 <unknown>
+#13 0x56364407f322 <unknown>
+#14 0x563644065e93 <unknown>
+#15 0x563644038934 <unknown>
+#16 0x56364403971e <unknown>
+#17 0x5636442eccb8 <unknown>
+#18 0x5636442f0bf0 <unknown>
+#19 0x5636442fb19c <unknown>
+#20 0x5636442f1808 <unknown>
+#21 0x5636442be27f <unknown>
+#22 0x563644315e88 <unknown>
+#23 0x563644316059 <unknown>
+#24 0x563644326843 <unknown>
+#25 0x7ff30f413b43 <unknown>
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:111]
+2023-09-30 14:07:44,875 INFO: Monitoring started for contact: Test [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:41]
+2023-09-30 14:07:56,231 ERROR: An error occurred in send_and_monitor_whatsapp_message: Message: unknown error: net::ERR_ADDRESS_UNREACHABLE
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+#0 0x55a18b4096b3 <unknown>
+#1 0x55a18b0df1e7 <unknown>
+#2 0x55a18b0d72f3 <unknown>
+#3 0x55a18b0c7d17 <unknown>
+#4 0x55a18b0c9191 <unknown>
+#5 0x55a18b0c8053 <unknown>
+#6 0x55a18b0c706c <unknown>
+#7 0x55a18b0c6fde <unknown>
+#8 0x55a18b0c5be4 <unknown>
+#9 0x55a18b0c606a <unknown>
+#10 0x55a18b0e18ce <unknown>
+#11 0x55a18b161ad5 <unknown>
+#12 0x55a18b1480c2 <unknown>
+#13 0x55a18b161322 <unknown>
+#14 0x55a18b147e93 <unknown>
+#15 0x55a18b11a934 <unknown>
+#16 0x55a18b11b71e <unknown>
+#17 0x55a18b3cecb8 <unknown>
+#18 0x55a18b3d2bf0 <unknown>
+#19 0x55a18b3dd19c <unknown>
+#20 0x55a18b3d3808 <unknown>
+#21 0x55a18b3a027f <unknown>
+#22 0x55a18b3f7e88 <unknown>
+#23 0x55a18b3f8059 <unknown>
+#24 0x55a18b408843 <unknown>
+#25 0x7f3fc6f99b43 <unknown>
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:111]
+2023-09-30 14:07:56,296 INFO: Monitoring started for contact: Test [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:41]
+2023-09-30 14:10:17,641 ERROR: Error in monitor_incoming_messages: name 'save_whatsapp_message_to_db' is not defined [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:98]
+2023-09-30 14:11:17,707 ERROR: Error in monitor_incoming_messages: Message: 
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:98]
+2023-09-30 14:12:17,918 ERROR: Error in monitor_incoming_messages: Message: 
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:98]
+2023-09-30 14:13:18,136 ERROR: Error in monitor_incoming_messages: Message: 
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:98]
+2023-09-30 14:14:18,483 ERROR: Error in monitor_incoming_messages: Message: 
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:98]
+2023-09-30 14:17:51,807 ERROR: An error occurred in send_and_monitor_whatsapp_message: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+#0 0x556fd80f26b3 <unknown>
+#1 0x556fd7dc81e7 <unknown>
+#2 0x556fd7da0fe8 <unknown>
+#3 0x556fd7e3642f <unknown>
+#4 0x556fd7e49e76 <unknown>
+#5 0x556fd7e30e93 <unknown>
+#6 0x556fd7e03934 <unknown>
+#7 0x556fd7e0471e <unknown>
+#8 0x556fd80b7cb8 <unknown>
+#9 0x556fd80bbbf0 <unknown>
+#10 0x556fd80c619c <unknown>
+#11 0x556fd80bc808 <unknown>
+#12 0x556fd808927f <unknown>
+#13 0x556fd80e0e88 <unknown>
+#14 0x556fd80e1059 <unknown>
+#15 0x556fd80f1843 <unknown>
+#16 0x7f5ad0feab43 <unknown>
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:123]
+2023-09-30 14:17:51,877 INFO: Monitoring started for contact: Test [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:41]
+2023-09-30 14:21:43,079 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'kliknij tutaj, aby wyświetlić informacje o grupie')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:22:13,163 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:22:43,243 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:23:13,311 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:23:43,376 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:24:13,424 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:24:43,494 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:25:13,547 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:25:43,633 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:27:22,159 ERROR: Error in select_chat: 'NoneType' object has no attribute 'is_displayed' [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:71]
+2023-09-30 14:27:22,163 ERROR: An error occurred in send_and_monitor_whatsapp_message: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+#0 0x55c00b3146b3 <unknown>
+#1 0x55c00afea1e7 <unknown>
+#2 0x55c00afc2fe8 <unknown>
+#3 0x55c00b05842f <unknown>
+#4 0x55c00b06be76 <unknown>
+#5 0x55c00b052e93 <unknown>
+#6 0x55c00b025934 <unknown>
+#7 0x55c00b02671e <unknown>
+#8 0x55c00b2d9cb8 <unknown>
+#9 0x55c00b2ddbf0 <unknown>
+#10 0x55c00b2e819c <unknown>
+#11 0x55c00b2de808 <unknown>
+#12 0x55c00b2ab27f <unknown>
+#13 0x55c00b302e88 <unknown>
+#14 0x55c00b303059 <unknown>
+#15 0x55c00b313843 <unknown>
+#16 0x7fbb5adc4b43 <unknown>
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:133]
+2023-09-30 14:27:22,285 INFO: Monitoring started for contact: Test [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:41]
+2023-09-30 14:28:55,739 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'kliknij tutaj, aby wyświetlić informacje o grupie')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:29:25,796 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:29:55,847 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:30:25,912 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:30:55,980 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:31:26,046 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:31:56,123 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:32:26,203 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:32:56,269 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:33:39,527 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'kliknij tutaj, aby wyświetlić informacje o grupie')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:34:09,599 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:34:39,658 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:35:09,704 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:35:39,773 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:36:09,831 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:36:39,886 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:37:09,931 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:37:40,013 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:38:10,109 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:38:40,209 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:39:10,260 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:39:40,325 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:40:10,421 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:40:40,473 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:41:10,524 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:41:40,594 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:42:35,200 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'kliknij tutaj, aby wyświetlić informacje o grupie')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:43:05,269 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 14:43:35,325 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:120]
+2023-09-30 18:03:52,007 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'kliknij tutaj, aby wyświetlić informacje o grupie')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:04:22,112 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:04:52,178 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:05:22,241 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:05:52,318 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:07:30,527 ERROR: Error in select_chat: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+#0 0x5591d57d86b3 <unknown>
+#1 0x5591d54ae1e7 <unknown>
+#2 0x5591d5486fe8 <unknown>
+#3 0x5591d551c42f <unknown>
+#4 0x5591d552fe76 <unknown>
+#5 0x5591d5516e93 <unknown>
+#6 0x5591d54e9934 <unknown>
+#7 0x5591d54ea71e <unknown>
+#8 0x5591d579dcb8 <unknown>
+#9 0x5591d57a1bf0 <unknown>
+#10 0x5591d57ac19c <unknown>
+#11 0x5591d57a2808 <unknown>
+#12 0x5591d576f27f <unknown>
+#13 0x5591d57c6e88 <unknown>
+#14 0x5591d57c7059 <unknown>
+#15 0x5591d57d7843 <unknown>
+#16 0x7fa3b7af4b43 <unknown>
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:71]
+2023-09-30 18:07:30,538 ERROR: An error occurred in send_and_monitor_whatsapp_message: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+#0 0x5591d57d86b3 <unknown>
+#1 0x5591d54ae1e7 <unknown>
+#2 0x5591d5486fe8 <unknown>
+#3 0x5591d551c42f <unknown>
+#4 0x5591d552fe76 <unknown>
+#5 0x5591d5516e93 <unknown>
+#6 0x5591d54e9934 <unknown>
+#7 0x5591d54ea71e <unknown>
+#8 0x5591d579dcb8 <unknown>
+#9 0x5591d57a1bf0 <unknown>
+#10 0x5591d57ac19c <unknown>
+#11 0x5591d57a2808 <unknown>
+#12 0x5591d576f27f <unknown>
+#13 0x5591d57c6e88 <unknown>
+#14 0x5591d57c7059 <unknown>
+#15 0x5591d57d7843 <unknown>
+#16 0x7fa3b7af4b43 <unknown>
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:132]
+2023-09-30 18:07:30,591 INFO: Monitoring started for contact: Test [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:41]
+2023-09-30 18:11:17,229 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'kliknij tutaj, aby wyświetlić informacje o grupie')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:11:47,269 ERROR: Error in monitor_incoming_messages: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+#0 0x555b16c6d6b3 <unknown>
+#1 0x555b169431e7 <unknown>
+#2 0x555b1691bfe8 <unknown>
+#3 0x555b169b142f <unknown>
+#4 0x555b169c4e76 <unknown>
+#5 0x555b169abe93 <unknown>
+#6 0x555b1697e934 <unknown>
+#7 0x555b1697f71e <unknown>
+#8 0x555b16c32cb8 <unknown>
+#9 0x555b16c36bf0 <unknown>
+#10 0x555b16c4119c <unknown>
+#11 0x555b16c37808 <unknown>
+#12 0x555b16c0427f <unknown>
+#13 0x555b16c5be88 <unknown>
+#14 0x555b16c5c059 <unknown>
+#15 0x555b16c6c843 <unknown>
+#16 0x7fd2b67fbb43 <unknown>
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:12:17,313 ERROR: Error in monitor_incoming_messages: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+#0 0x555b16c6d6b3 <unknown>
+#1 0x555b169431e7 <unknown>
+#2 0x555b1691bfe8 <unknown>
+#3 0x555b169b142f <unknown>
+#4 0x555b169c4e76 <unknown>
+#5 0x555b169abe93 <unknown>
+#6 0x555b1697e934 <unknown>
+#7 0x555b1697f71e <unknown>
+#8 0x555b16c32cb8 <unknown>
+#9 0x555b16c36bf0 <unknown>
+#10 0x555b16c4119c <unknown>
+#11 0x555b16c37808 <unknown>
+#12 0x555b16c0427f <unknown>
+#13 0x555b16c5be88 <unknown>
+#14 0x555b16c5c059 <unknown>
+#15 0x555b16c6c843 <unknown>
+#16 0x7fd2b67fbb43 <unknown>
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:12:47,346 ERROR: Error in monitor_incoming_messages: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+#0 0x555b16c6d6b3 <unknown>
+#1 0x555b169431e7 <unknown>
+#2 0x555b1691bfe8 <unknown>
+#3 0x555b169b142f <unknown>
+#4 0x555b169c4e76 <unknown>
+#5 0x555b169abe93 <unknown>
+#6 0x555b1697e934 <unknown>
+#7 0x555b1697f71e <unknown>
+#8 0x555b16c32cb8 <unknown>
+#9 0x555b16c36bf0 <unknown>
+#10 0x555b16c4119c <unknown>
+#11 0x555b16c37808 <unknown>
+#12 0x555b16c0427f <unknown>
+#13 0x555b16c5be88 <unknown>
+#14 0x555b16c5c059 <unknown>
+#15 0x555b16c6c843 <unknown>
+#16 0x7fd2b67fbb43 <unknown>
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:18:32,490 ERROR: Error in select_chat: 'NoneType' object has no attribute 'is_displayed' [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:71]
+2023-09-30 18:18:32,499 ERROR: An error occurred in send_and_monitor_whatsapp_message: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+#0 0x556943b3b6b3 <unknown>
+#1 0x5569438111e7 <unknown>
+#2 0x5569437e9fe8 <unknown>
+#3 0x55694387f42f <unknown>
+#4 0x556943892e76 <unknown>
+#5 0x556943879e93 <unknown>
+#6 0x55694384c934 <unknown>
+#7 0x55694384d71e <unknown>
+#8 0x556943b00cb8 <unknown>
+#9 0x556943b04bf0 <unknown>
+#10 0x556943b0f19c <unknown>
+#11 0x556943b05808 <unknown>
+#12 0x556943ad227f <unknown>
+#13 0x556943b29e88 <unknown>
+#14 0x556943b2a059 <unknown>
+#15 0x556943b3a843 <unknown>
+#16 0x7fd1489b9b43 <unknown>
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:132]
+2023-09-30 18:18:32,677 INFO: Monitoring started for contact: Test [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:41]
+2023-09-30 18:19:19,903 ERROR: Error in select_chat: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+#0 0x55dad6c2b6b3 <unknown>
+#1 0x55dad69011e7 <unknown>
+#2 0x55dad68e732c <unknown>
+#3 0x55dad68e81df <unknown>
+#4 0x55dad6901747 <unknown>
+#5 0x55dad68d9a1c <unknown>
+#6 0x55dad6975c8a <unknown>
+#7 0x55dad696a088 <unknown>
+#8 0x55dad693c934 <unknown>
+#9 0x55dad693d71e <unknown>
+#10 0x55dad6bf0cb8 <unknown>
+#11 0x55dad6bf4bf0 <unknown>
+#12 0x55dad6bff19c <unknown>
+#13 0x55dad6bf5808 <unknown>
+#14 0x55dad6bc227f <unknown>
+#15 0x55dad6c19e88 <unknown>
+#16 0x55dad6c1a059 <unknown>
+#17 0x55dad6c2a843 <unknown>
+#18 0x7f21a20c2b43 <unknown>
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:71]
+2023-09-30 18:19:19,916 ERROR: An error occurred in send_and_monitor_whatsapp_message: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+#0 0x55dad6c2b6b3 <unknown>
+#1 0x55dad69011e7 <unknown>
+#2 0x55dad68d9fe8 <unknown>
+#3 0x55dad696f42f <unknown>
+#4 0x55dad6982e76 <unknown>
+#5 0x55dad6969e93 <unknown>
+#6 0x55dad693c934 <unknown>
+#7 0x55dad693d71e <unknown>
+#8 0x55dad6bf0cb8 <unknown>
+#9 0x55dad6bf4bf0 <unknown>
+#10 0x55dad6bff19c <unknown>
+#11 0x55dad6bf5808 <unknown>
+#12 0x55dad6bc227f <unknown>
+#13 0x55dad6c19e88 <unknown>
+#14 0x55dad6c1a059 <unknown>
+#15 0x55dad6c2a843 <unknown>
+#16 0x7f21a20c2b43 <unknown>
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:132]
+2023-09-30 18:19:19,998 INFO: Monitoring started for contact: Test [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:41]
+2023-09-30 18:20:19,857 ERROR: Error in select_chat: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+#0 0x5562813a16b3 <unknown>
+#1 0x5562810771e7 <unknown>
+#2 0x55628104ffe8 <unknown>
+#3 0x5562810e542f <unknown>
+#4 0x5562810f8e76 <unknown>
+#5 0x5562810dfe93 <unknown>
+#6 0x5562810b2934 <unknown>
+#7 0x5562810b371e <unknown>
+#8 0x556281366cb8 <unknown>
+#9 0x55628136abf0 <unknown>
+#10 0x55628137519c <unknown>
+#11 0x55628136b808 <unknown>
+#12 0x55628133827f <unknown>
+#13 0x55628138fe88 <unknown>
+#14 0x556281390059 <unknown>
+#15 0x5562813a0843 <unknown>
+#16 0x7f2ca5c9db43 <unknown>
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:71]
+2023-09-30 18:20:19,870 ERROR: An error occurred in send_and_monitor_whatsapp_message: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.92)
+Stacktrace:
+#0 0x5562813a16b3 <unknown>
+#1 0x5562810771e7 <unknown>
+#2 0x55628104ffe8 <unknown>
+#3 0x5562810e542f <unknown>
+#4 0x5562810f8e76 <unknown>
+#5 0x5562810dfe93 <unknown>
+#6 0x5562810b2934 <unknown>
+#7 0x5562810b371e <unknown>
+#8 0x556281366cb8 <unknown>
+#9 0x55628136abf0 <unknown>
+#10 0x55628137519c <unknown>
+#11 0x55628136b808 <unknown>
+#12 0x55628133827f <unknown>
+#13 0x55628138fe88 <unknown>
+#14 0x556281390059 <unknown>
+#15 0x5562813a0843 <unknown>
+#16 0x7f2ca5c9db43 <unknown>
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:132]
+2023-09-30 18:20:19,956 INFO: Monitoring started for contact: Test [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:41]
+2023-09-30 18:21:15,819 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'kliknij tutaj, aby wyświetlić informacje o grupie')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:21:45,880 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:22:15,974 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:23:16,875 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'kliknij tutaj, aby wyświetlić informacje o grupie')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:23:46,931 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:24:47,277 ERROR: Error in monitor_incoming_messages: Message: 
+ [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:27:32,628 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'kliknij tutaj, aby wyświetlić informacje o grupie')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:28:02,683 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:34:42,407 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) attempt to write a readonly database
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'kliknij tutaj, aby wyświetlić informacje o grupie')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:35:12,491 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:35:42,565 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:36:12,631 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:36:42,714 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:37:12,785 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:37:42,851 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) attempt to write a readonly database
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:38:12,935 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:38:42,980 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:39:13,087 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:39:43,242 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) no such table: whatsapp_messages
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:40:13,312 ERROR: Error in monitor_incoming_messages: (sqlite3.OperationalError) attempt to write a readonly database
+[SQL: INSERT INTO whatsapp_messages (sender, message) VALUES (?, ?) RETURNING id, timestamp]
+[parameters: ('Extracted Sender Name', 'Mój, Ty')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8) [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:119]
+2023-09-30 18:44:16,120 INFO: Received Message: kliknij tutaj, aby wyświetlić informacje o grupie [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,188 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,214 INFO: Received Message: dhjhdsgd [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,253 INFO: Received Message: asfasd [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,342 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,420 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,568 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,638 INFO: Received Message: sdfsdfsd [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,664 INFO: Received Message: Działa nie? [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,686 INFO: Received Message: GIT [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,722 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,736 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,753 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,773 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,788 INFO: Received Message: Urufjf [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,802 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,817 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,858 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,879 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,897 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,916 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,934 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:44:16,953 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,491 INFO: Received Message: kliknij tutaj, aby wyświetlić informacje o grupie [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,549 INFO: Received Message: dhjhdsgd [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,567 INFO: Received Message: asfasd [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,589 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,609 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,644 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,663 INFO: Received Message: sdfsdfsd [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,689 INFO: Received Message: Działa nie? [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,727 INFO: Received Message: GIT [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,770 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,813 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,845 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,870 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,895 INFO: Received Message: Urufjf [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,929 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,952 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,972 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:03,993 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:04,013 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:04,033 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:04,055 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:04,069 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:50:04,082 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:58,846 INFO: Received Message: kliknij tutaj, aby wyświetlić informacje o grupie [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:58,901 INFO: Received Message: asfasd [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:58,918 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:58,956 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:58,973 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:58,990 INFO: Received Message: sdfsdfsd [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,030 INFO: Received Message: Działa nie? [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,053 INFO: Received Message: GIT [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,081 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,110 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,138 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,161 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,178 INFO: Received Message: Urufjf [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,192 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,204 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,256 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,269 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,281 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,293 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,306 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,318 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,332 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
+2023-09-30 18:59:59,344 INFO: Received Message: Hello from Flask! [in /home/qwe/Pulpit/asystent/wp_api/wp_api.py:113]
