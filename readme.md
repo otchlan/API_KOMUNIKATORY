@@ -15,6 +15,3 @@
 
 ## Komunikatory:
 - [ ] dodać i przetestować pobieranie attachmentów
-
-## Uwagi dotyczące `WP_api.py`:
-Jeśli napotkasz błędy związane z `chromedriver`, upewnij się, że masz odpowiednie uprawnienia do jego uruchamiania. Możesz to zrobić przy pomocy poni
