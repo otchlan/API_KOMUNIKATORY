@@ -1,19 +1,20 @@
-Baza danych:
-[x] stworzyć część aplikacji odpowiedzialną za inicjalizowanie bazy
-[x] stworzyć serwis wyświetlający zawartość bazy
-[] podpiąć bazę pod endpointy od przetwarzania wiadomości
-[] przetestować zapisywanie attachment
+# Projekt Asystent
 
-Sztuczna:
-[] Podpiąć model
-[] Skonfigurować bazę pod model
+## Baza danych:
+- [x] stworzyć część aplikacji odpowiedzialną za inicjalizowanie bazy
+- [x] stworzyć serwis wyświetlający zawartość bazy
+- [ ] podpiąć bazę pod endpointy od przetwarzania wiadomości
+- [ ] przetestować zapisywanie attachment
 
+## Sztuczna Inteligencja:
+- [ ] Podpiąć model
+- [ ] Skonfigurować bazę pod model
 
-Telegram:
-[] Nie działa pobieranie wiadomości
+## Telegram:
+- [ ] Nie działa pobieranie wiadomości
 
-Komunikatory:
-[] dodać i przetestować pobieranie attachmentów
+## Komunikatory:
+- [ ] dodać i przetestować pobieranie attachmentów
 
-WP_api.py:
-   service = Service(executable_path='/home/qwe/Pulpit/asystent/wp_api/chromedriver') # do readme.md dodac, ze może być z tym błąd chmod +x /home/qwe/Pulpit/asystent/wp_api/chromedriver3
+## Uwagi dotyczące `WP_api.py`:
+Jeśli napotkasz błędy związane z `chromedriver`, upewnij się, że masz odpowiednie uprawnienia do jego uruchamiania. Możesz to zrobić przy pomocy poni
