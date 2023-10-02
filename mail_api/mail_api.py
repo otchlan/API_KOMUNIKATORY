@@ -107,6 +107,7 @@ def save_email_to_db(subject, sender, recipients, content, footer, original_cont
     session.close()
 
 
+
 def main():
     mail = connect_to_server(EMAIL, PASSWORD)
     email_nums = get_all_emails(mail)

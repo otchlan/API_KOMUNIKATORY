@@ -16,3 +16,5 @@ class Message(Base):
     original_content = Column(Text)
     timestamp = Column(DateTime, default=datetime.datetime.utcnow)
     attachments_path = Column(String)
+
+    attachments = relationship("Attachment", back_populates="message")

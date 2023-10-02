@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wiadomości z bazy danych</title>
+</head>
+<body>
+    <h1>Wiadomości</h1>
+    
+    <!-- Wyświetlanie nagłówków kolumn -->
+    <table border="1">
+        <thead>
+            <tr>
+                {% for header in headers %}
+                    <th>{{ header }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for message in messages %}
+                <tr>
+                    {% for value in message %}
+                        <td>{{ value }}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    {% if db_path %}
+        <p>Ścieżka do bazy danych: {{ db_path }}</p>
+    {% else %}
+        <p>Brak informacji o ścieżce do bazy danych!</p>
+    {% endif %}
+</body>
+</html>

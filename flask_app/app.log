@@ -1,0 +1,218 @@
+2023-10-02 14:43:24,445 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-02 14:43:24,445 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-02 14:43:24,446 - INFO -  * Restarting with stat
+2023-10-02 14:43:24,955 - WARNING -  * Debugger is active!
+2023-10-02 14:43:24,956 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 14:43:29,915 - INFO - 127.0.0.1 - - [02/Oct/2023 14:43:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 14:43:29,987 - INFO - 127.0.0.1 - - [02/Oct/2023 14:43:29] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-02 14:43:29,990 - INFO - 127.0.0.1 - - [02/Oct/2023 14:43:29] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-02 14:43:30,178 - INFO - 127.0.0.1 - - [02/Oct/2023 14:43:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-02 14:43:30,255 - INFO - 127.0.0.1 - - [02/Oct/2023 14:43:30] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-02 14:44:45,099 - INFO -  * Detected change in '/home/qwe/Pulpit/asystent/flask_app/app.py', reloading
+2023-10-02 14:44:45,161 - INFO -  * Restarting with stat
+2023-10-02 14:44:45,420 - WARNING -  * Debugger is active!
+2023-10-02 14:44:45,420 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 14:44:46,721 - INFO -  * Detected change in '/home/qwe/Pulpit/asystent/flask_app/app.py', reloading
+2023-10-02 14:44:46,779 - INFO -  * Restarting with stat
+2023-10-02 14:44:47,023 - WARNING -  * Debugger is active!
+2023-10-02 14:44:47,024 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 15:10:12,068 - INFO -  * Detected change in '/home/qwe/Pulpit/asystent/flask_app/app.py', reloading
+2023-10-02 15:10:12,148 - INFO -  * Restarting with stat
+2023-10-02 15:10:12,544 - INFO - Columns in 'messages' table: []
+2023-10-02 15:10:12,551 - WARNING -  * Debugger is active!
+2023-10-02 15:10:12,551 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 15:10:18,993 - INFO - Columns in 'messages' table: []
+2023-10-02 15:10:19,001 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-02 15:10:19,001 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-02 15:10:19,002 - INFO -  * Restarting with stat
+2023-10-02 15:10:19,270 - INFO - Columns in 'messages' table: []
+2023-10-02 15:10:19,274 - WARNING -  * Debugger is active!
+2023-10-02 15:10:19,274 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 15:10:25,489 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:10:25,489 - INFO - 127.0.0.1 - - [02/Oct/2023 15:10:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 15:10:25,912 - INFO - 127.0.0.1 - - [02/Oct/2023 15:10:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-10-02 15:16:26,392 - INFO - Columns in 'messages' table: []
+2023-10-02 15:16:26,396 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-02 15:16:26,396 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-02 15:16:26,397 - INFO -  * Restarting with stat
+2023-10-02 15:16:26,641 - INFO - Columns in 'messages' table: []
+2023-10-02 15:16:26,644 - WARNING -  * Debugger is active!
+2023-10-02 15:16:26,645 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 15:16:33,331 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:16:33,335 - INFO - 127.0.0.1 - - [02/Oct/2023 15:16:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 15:17:02,694 - INFO -  * Detected change in '/home/qwe/Pulpit/asystent/flask_app/tests.py', reloading
+2023-10-02 15:17:02,760 - INFO -  * Restarting with stat
+2023-10-02 15:17:03,106 - INFO - Columns in 'messages' table: []
+2023-10-02 15:17:03,109 - WARNING -  * Debugger is active!
+2023-10-02 15:17:03,110 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 15:21:40,842 - INFO -  * Detected change in '/home/qwe/Pulpit/asystent/flask_app/app.py', reloading
+2023-10-02 15:21:40,961 - INFO -  * Restarting with stat
+2023-10-02 15:21:41,238 - INFO - Columns in 'messages' table: []
+2023-10-02 15:21:41,241 - WARNING -  * Debugger is active!
+2023-10-02 15:21:41,242 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 15:22:01,913 - INFO - Columns in 'messages' table: []
+2023-10-02 15:22:01,917 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-02 15:22:01,917 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-02 15:22:01,917 - INFO -  * Restarting with stat
+2023-10-02 15:22:02,147 - INFO - Columns in 'messages' table: []
+2023-10-02 15:22:02,150 - WARNING -  * Debugger is active!
+2023-10-02 15:22:02,151 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 15:22:07,344 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:22:07,344 - INFO - 127.0.0.1 - - [02/Oct/2023 15:22:07] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 15:22:16,368 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:22:16,369 - INFO - 127.0.0.1 - - [02/Oct/2023 15:22:16] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 15:22:21,573 - INFO - Columns in 'messages' table: []
+2023-10-02 15:22:21,577 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-02 15:22:21,577 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-02 15:22:21,578 - INFO -  * Restarting with stat
+2023-10-02 15:22:21,819 - INFO - Columns in 'messages' table: []
+2023-10-02 15:22:21,822 - WARNING -  * Debugger is active!
+2023-10-02 15:22:21,822 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 15:22:23,716 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:22:23,716 - INFO - 127.0.0.1 - - [02/Oct/2023 15:22:23] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 15:27:21,265 - INFO - Columns in 'messages' table: []
+2023-10-02 15:28:53,808 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:28:53,809 - INFO - 127.0.0.1 - - [02/Oct/2023 15:28:53] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 15:35:44,684 - INFO - Columns in 'messages' table: []
+2023-10-02 15:35:44,706 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-02 15:35:44,706 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-02 15:35:44,707 - INFO -  * Restarting with stat
+2023-10-02 15:35:45,018 - INFO - Columns in 'messages' table: []
+2023-10-02 15:35:45,021 - WARNING -  * Debugger is active!
+2023-10-02 15:35:45,021 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 15:35:58,173 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:35:58,176 - INFO - 127.0.0.1 - - [02/Oct/2023 15:35:58] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 15:37:35,210 - INFO -  * Detected change in '/home/qwe/Pulpit/asystent/flask_app/app.py', reloading
+2023-10-02 15:37:35,271 - INFO -  * Restarting with stat
+2023-10-02 15:37:35,529 - INFO - Columns in 'messages' table: []
+2023-10-02 15:37:35,532 - WARNING -  * Debugger is active!
+2023-10-02 15:37:35,532 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 15:38:08,379 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:38:08,380 - INFO - 127.0.0.1 - - [02/Oct/2023 15:38:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 15:38:14,466 - INFO - Columns in 'messages' table: []
+2023-10-02 15:38:14,470 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-02 15:38:14,470 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-02 15:38:14,470 - INFO -  * Restarting with stat
+2023-10-02 15:38:14,724 - INFO - Columns in 'messages' table: []
+2023-10-02 15:38:14,727 - WARNING -  * Debugger is active!
+2023-10-02 15:38:14,727 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 15:38:17,472 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:38:17,472 - INFO - 127.0.0.1 - - [02/Oct/2023 15:38:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 15:38:41,937 - INFO - Columns in 'messages' table: []
+2023-10-02 15:38:41,941 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-02 15:38:41,941 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-02 15:38:41,941 - INFO -  * Restarting with stat
+2023-10-02 15:38:42,194 - INFO - Columns in 'messages' table: []
+2023-10-02 15:38:42,197 - WARNING -  * Debugger is active!
+2023-10-02 15:38:42,198 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 15:38:46,793 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:38:46,793 - INFO - 127.0.0.1 - - [02/Oct/2023 15:38:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 15:44:53,312 - INFO - Columns in 'messages' table: []
+2023-10-02 15:44:53,316 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-02 15:44:53,316 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-02 15:44:53,317 - INFO -  * Restarting with stat
+2023-10-02 15:44:53,558 - INFO - Columns in 'messages' table: []
+2023-10-02 15:44:53,561 - WARNING -  * Debugger is active!
+2023-10-02 15:44:53,561 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 15:44:58,961 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:44:58,963 - INFO - 127.0.0.1 - - [02/Oct/2023 15:44:58] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 15:46:18,441 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:46:18,442 - INFO - 127.0.0.1 - - [02/Oct/2023 15:46:18] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 15:49:31,063 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:49:31,071 - INFO - 127.0.0.1 - - [02/Oct/2023 15:49:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 15:55:21,130 - INFO -  * Detected change in '/home/qwe/Pulpit/asystent/flask_app/app.py', reloading
+2023-10-02 15:55:21,193 - INFO -  * Restarting with stat
+2023-10-02 15:55:21,470 - INFO - Columns in 'messages' table: []
+2023-10-02 15:55:21,473 - WARNING -  * Debugger is active!
+2023-10-02 15:55:21,473 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 15:55:29,229 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:55:29,230 - INFO - 127.0.0.1 - - [02/Oct/2023 15:55:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 15:55:38,170 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:55:38,171 - INFO - 127.0.0.1 - - [02/Oct/2023 15:55:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 15:55:44,547 - INFO - Columns in 'messages' table: []
+2023-10-02 15:55:44,551 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-02 15:55:44,552 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-02 15:55:44,552 - INFO -  * Restarting with stat
+2023-10-02 15:55:44,813 - INFO - Columns in 'messages' table: []
+2023-10-02 15:55:44,816 - WARNING -  * Debugger is active!
+2023-10-02 15:55:44,817 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 15:55:48,625 - ERROR - No columns found in the 'messages' table.
+2023-10-02 15:55:48,625 - INFO - 127.0.0.1 - - [02/Oct/2023 15:55:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 16:10:51,384 - INFO -  * Detected change in '/home/qwe/Pulpit/asystent/flask_app/app.py', reloading
+2023-10-02 16:10:51,453 - INFO -  * Restarting with stat
+2023-10-02 16:10:51,792 - INFO - Columns in 'messages' table: []
+2023-10-02 16:10:51,795 - WARNING -  * Debugger is active!
+2023-10-02 16:10:51,795 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 16:10:57,311 - INFO - Columns in 'messages' table: []
+2023-10-02 16:10:57,315 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-02 16:10:57,315 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-02 16:10:57,316 - INFO -  * Restarting with stat
+2023-10-02 16:10:57,683 - INFO - Columns in 'messages' table: []
+2023-10-02 16:10:57,686 - WARNING -  * Debugger is active!
+2023-10-02 16:10:57,686 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 16:11:48,054 - ERROR - No columns found in the 'messages' table.
+2023-10-02 16:11:48,057 - INFO - 127.0.0.1 - - [02/Oct/2023 16:11:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 16:12:09,670 - INFO - Columns in 'messages' table: []
+2023-10-02 16:12:09,675 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-02 16:12:09,675 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-02 16:12:09,675 - INFO -  * Restarting with stat
+2023-10-02 16:12:09,978 - INFO - Columns in 'messages' table: []
+2023-10-02 16:12:09,982 - WARNING -  * Debugger is active!
+2023-10-02 16:12:09,982 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 16:12:11,259 - ERROR - No columns found in the 'messages' table.
+2023-10-02 16:12:11,260 - INFO - 127.0.0.1 - - [02/Oct/2023 16:12:11] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 16:15:53,102 - INFO - Columns in 'messages' table: []
+2023-10-02 16:15:53,107 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-02 16:15:53,107 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-02 16:15:53,108 - INFO -  * Restarting with stat
+2023-10-02 16:15:53,363 - INFO - Columns in 'messages' table: []
+2023-10-02 16:15:53,366 - WARNING -  * Debugger is active!
+2023-10-02 16:15:53,367 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 16:15:58,059 - ERROR - No columns found in the 'messages' table.
+2023-10-02 16:15:58,062 - INFO - 127.0.0.1 - - [02/Oct/2023 16:15:58] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 16:22:20,020 - INFO - Columns in 'messages' table: ['id', 'source', 'subject', 'sender', 'recipients', 'content', 'footer', 'original_content', 'timestamp', 'attachments_path']
+2023-10-02 16:22:20,040 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-02 16:22:20,040 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-02 16:22:20,041 - INFO -  * Restarting with stat
+2023-10-02 16:22:20,285 - INFO - Columns in 'messages' table: ['id', 'source', 'subject', 'sender', 'recipients', 'content', 'footer', 'original_content', 'timestamp', 'attachments_path']
+2023-10-02 16:22:20,289 - WARNING -  * Debugger is active!
+2023-10-02 16:22:20,290 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 16:22:25,150 - INFO - 127.0.0.1 - - [02/Oct/2023 16:22:25] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-02 16:22:25,212 - INFO - 127.0.0.1 - - [02/Oct/2023 16:22:25] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-02 16:22:25,213 - INFO - 127.0.0.1 - - [02/Oct/2023 16:22:25] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-02 16:22:25,450 - INFO - 127.0.0.1 - - [02/Oct/2023 16:22:25] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-02 16:22:25,492 - INFO - 127.0.0.1 - - [02/Oct/2023 16:22:25] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-02 16:24:16,715 - INFO -  * Detected change in '/home/qwe/Pulpit/asystent/flask_app/app.py', reloading
+2023-10-02 16:24:16,790 - INFO -  * Restarting with stat
+2023-10-02 16:24:17,024 - INFO - Columns in 'messages' table: ['id', 'source', 'subject', 'sender', 'recipients', 'content', 'footer', 'original_content', 'timestamp', 'attachments_path']
+2023-10-02 16:24:17,028 - WARNING -  * Debugger is active!
+2023-10-02 16:24:17,029 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 16:24:21,533 - INFO - Columns in 'messages' table: ['id', 'source', 'subject', 'sender', 'recipients', 'content', 'footer', 'original_content', 'timestamp', 'attachments_path']
+2023-10-02 16:24:21,549 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-10-02 16:24:21,549 - INFO - [33mPress CTRL+C to quit[0m
+2023-10-02 16:24:21,550 - INFO -  * Restarting with stat
+2023-10-02 16:24:21,806 - INFO - Columns in 'messages' table: ['id', 'source', 'subject', 'sender', 'recipients', 'content', 'footer', 'original_content', 'timestamp', 'attachments_path']
+2023-10-02 16:24:21,810 - WARNING -  * Debugger is active!
+2023-10-02 16:24:21,811 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 16:24:26,218 - INFO - 127.0.0.1 - - [02/Oct/2023 16:24:26] "GET / HTTP/1.1" 200 -
+2023-10-02 16:27:03,808 - INFO -  * Detected change in '/home/qwe/Pulpit/asystent/flask_app/app.py', reloading
+2023-10-02 16:27:03,883 - INFO -  * Restarting with stat
+2023-10-02 16:27:04,144 - INFO - Columns in 'messages' table: ['id', 'source', 'subject', 'sender', 'recipients', 'content', 'footer', 'original_content', 'timestamp', 'attachments_path']
+2023-10-02 16:27:04,150 - WARNING -  * Debugger is active!
+2023-10-02 16:27:04,150 - INFO -  * Debugger PIN: 458-086-681
+2023-10-02 16:27:26,608 - INFO - 127.0.0.1 - - [02/Oct/2023 16:27:26] "GET / HTTP/1.1" 200 -

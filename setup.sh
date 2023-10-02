@@ -1,23 +1,15 @@
 #!/bin/bash
 
-# Skrypt do dodawania plików __init__.py w katalogach projektu
+# Utwórz folder flask_app
+mkdir -p flask_app/templates
 
-# Lista katalogów, w których chcesz dodać plik __init__.py
-DIRECTORIES=(
-    "."
-    "./database"
-    "./database/graphql"
-    "./database/models"
-    "./mail_api"
-    "./telegram_api"
-    "./wp_api"
-    # Dodaj więcej katalogów w razie potrzeby
-)
+# Przenieś app.py do folderu flask_app
+mv app.py flask_app/
 
-# Pętla dodająca plik __init__.py w każdym katalogu z listy
-for dir in "${DIRECTORIES[@]}"; do
-    touch "$dir/__init__.py"
-    echo "Dodano plik __init__.py w katalogu $dir"
-done
+# Przenieś index.html do folderu flask_app/templates
+mv database/db_flask_test_app/templates/index.html flask_app/templates/
 
-echo "Operacja zakończona pomyślnie!"
+# Usuń niepotrzebny folder db_flask_test_app
+rm -r database/db_flask_test_app/
+
+echo "Struktura projektu została zmieniona."
