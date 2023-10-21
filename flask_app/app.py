@@ -1,43 +1,76 @@
 import os
-from flask import Flask, render_template
-from sqlalchemy import create_engine, MetaData, Table
+import sys
 import logging
+from flask import Flask, render_template, send_from_directory
 
-# Set up logging
-logging.basicConfig(filename='app.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
+# Add parent directory to sys.path
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))  
 
-app = Flask(__name__)
+from config.config import Config  
+from database.operations.queries import get_all_messages  
+from database.db_session import db
 
-# Ustal ścieżkę do bazy danych na podstawie lokalizacji bieżącego skryptu
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATABASE_URL = "sqlite:///" + os.path.join(BASE_DIR, "test.db")
+# Set up the absolute path for logs
+LOGS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'logs'))
 
-engine = create_engine(DATABASE_URL)
-metadata = MetaData()
+def create_app(config_class=Config):
+    app = Flask(__name__)
+    app.config.from_object(config_class)
 
-# Load the table schema from the database
-metadata.reflect(bind=engine)
+    setup_logging(app)
+    
+    @app.route('/')
+    def index():
+        app.logger.info("Endpoint '/' accessed.")
+        messages, columns = get_all_messages()
+        
+        if messages is None or columns is None:
+            app.logger.error("Problem retrieving messages or columns from the database.")
+            return "There was an issue retrieving data from the database.", 500
 
-if 'messages' in metadata.tables:
-    messages_table = metadata.tables['messages']
-    columns = [column.name for column in messages_table.c]
-    logging.info(f"Columns in 'messages' table: {columns}")
-else:
-    logging.error("Table 'messages' not found in the database.")
-    messages_table = None
+        return render_template('index.html', messages=messages, db_path=app.config['DATABASE_URL'], headers=columns)
 
-@app.route('/')
-def index():
-    if messages_table is None:
-        return "Table 'messages' not found in the database.", 500
+    @app.route('/logs/<filename>')
+    def serve_log_file(filename):
+        app.logger.info(f"Endpoint '/logs/{filename}' accessed.")
+        try:
+            return send_from_directory(LOGS_DIR, filename)
+        except FileNotFoundError:
+            app.logger.error(f"Log file {filename} not found.")
+            return "Log file not found.", 404
 
-    # Pobranie wszystkich wiadomości z tabeli
-    with engine.connect() as connection:
-        results = connection.execute(messages_table.select()).fetchall()
+    @app.route('/log_files')
+    def list_log_files():
+        app.logger.info("Endpoint '/log_files' accessed.")
+        log_files = os.listdir(LOGS_DIR)
+        return render_template('log_files.html', log_files=log_files)
 
-    # Wyświetlenie wyników na stronie
-    return render_template('index.html', messages=results, db_path=DATABASE_URL, headers=columns)
+    @app.teardown_appcontext
+    def shutdown_session(exception=None):
+        db.remove()
 
+    return app
+
+
+
+def setup_logging(app):
+    log_file_path = os.path.join(LOGS_DIR, 'app.log')
+    
+    if not os.path.exists(log_file_path):
+        os.makedirs(LOGS_DIR, exist_ok=True)
+        with open(log_file_path, 'w') as f:  # Create an empty 'app.log' file.
+            f.write('')
+
+    logging.basicConfig(filename=log_file_path, 
+                        level=logging.DEBUG, 
+                        format='%(asctime)s - %(levelname)s - %(message)s')
+    handler = logging.StreamHandler(sys.stdout)
+    handler.setLevel(logging.DEBUG)
+    app.logger.addHandler(handler)
+
+app = create_app()
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.logger.info("Starting the server.")
+    app.run(debug=app.config['DEBUG'])
+    app.logger.info("Server stopped.")

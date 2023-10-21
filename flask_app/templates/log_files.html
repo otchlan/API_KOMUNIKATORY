@@ -1,0 +1,16 @@
+<!-- flask_app/templates/log_files.html -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Log Files</title>
+</head>
+<body>
+    <h1>Log Files</h1>
+    <ul>
+        {% for log_file in log_files %}
+            <li><a href="{{ url_for('serve_log_file', filename=log_file) }}">{{ log_file }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

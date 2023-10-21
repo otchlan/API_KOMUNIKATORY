@@ -8,13 +8,17 @@ from bs4 import BeautifulSoup
 from database.db_session import SessionLocal
 from database.models.message_model import Message
 
-EMAIL = 'asystentai@deeptechlabs.pl'
-PASSWORD = '12345678!'
+from config.config import Config  
 
+EMAIL = Config.EMAIL_USERNAME_AI
+PASSWORD = Config.EMAIL_PASSWORD
+ATTACHMENTS_DIR = Config.ATTACHMENT_DIR
+IMAP_SERVER = Config.IMAP_SERVER
+IMAP_PORT = Config.IMAP_PORT
 
 # Nawiazuje polaczenie z serwerem IMAP i loguje sie na konto e-mail
 def connect_to_server(email, password):
-    mail = imaplib.IMAP4_SSL('imap.titan.email', 993)
+    mail = imaplib.IMAP4_SSL(IMAP_SERVER, IMAP_PORT)
     mail.login(email, password)
     return mail
 
@@ -81,6 +85,24 @@ def extract_original_content(email_message):
         return body.split("Pozdrawiam", 1)[0].strip()
     return body  # Jeśli nie ma "Pozdrawiam", zwróć całą treść jako oryginalną
 
+def save_attachments(email_message):
+    """
+    Save attachments from an email message.
+    """
+    attachments = []
+    if not os.path.exists(ATTACHMENTS_DIR):
+        os.makedirs(ATTACHMENTS_DIR)
+    
+    for part in email_message.walk():
+        content_disposition = str(part.get("Content-Disposition"))
+        if "attachment" in content_disposition:
+            file_name = part.get_filename()
+            if file_name:
+                file_path = os.path.join(ATTACHMENTS_DIR, file_name)
+                with open(file_path, 'wb') as f:
+                    f.write(part.get_payload(decode=True))
+                attachments.append(file_path)
+    return attachments
 
 def save_email_to_db(subject, sender, recipients, content, footer, original_content):
     # Create a new session
@@ -106,36 +128,29 @@ def save_email_to_db(subject, sender, recipients, content, footer, original_cont
     # Close the session
     session.close()
 
-
-
 def main():
     mail = connect_to_server(EMAIL, PASSWORD)
     email_nums = get_all_emails(mail)
     
     for num in email_nums:
         email_message = get_email_content(mail, num)
-        
-        # Extracting details from the email
         subject, sender, recipients = extract_email_details(email_message)
         body = extract_email_body(email_message)
-        
-        # Assuming you have functions to extract footer and original content
         footer = extract_email_footer(email_message)
         original_content = extract_original_content(email_message)
-
-        # Save the email data to the database
+        
+        attachments = save_attachments(email_message)
+        print(f"Saved attachments: {', '.join(attachments) if attachments else 'No attachments'}")
+        
         save_email_to_db(subject, sender, recipients, body, footer, original_content)
         
-        # Optional: Print the email details (you can remove this if not needed)
-        print("Temat:", subject)
-        print("Nadawca:", sender)
-        print("Adresaci:", recipients)
-        print("Treść:", body)
+        print("Subject:", subject)
+        print("Sender:", sender)
+        print("Recipients:", recipients)
+        print("Body:", body)
         print("------------------------------------------------------")
     
     mail.logout()
 
 if __name__ == "__main__":
     main()
-
-

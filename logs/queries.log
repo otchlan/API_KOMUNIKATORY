@@ -1,0 +1,90 @@
+2023-10-17 11:42:21,831 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-17 11:57:33,612 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-17 11:57:40,610 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-17 12:18:58,983 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-17 12:19:09,905 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-17 20:55:03,785 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-17 20:55:04,222 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-17 20:55:16,055 - INFO - Function 'get_all_messages()' called.
+2023-10-17 20:55:16,055 - ERROR - Error occurred while fetching messages: name 'db' is not defined
+2023-10-17 20:55:18,820 - INFO - Function 'get_all_messages()' called.
+2023-10-17 20:55:18,821 - ERROR - Error occurred while fetching messages: name 'db' is not defined
+2023-10-17 23:45:08,334 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-17 23:47:29,008 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-17 23:47:48,050 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-17 23:47:48,624 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-17 23:47:56,163 - INFO - Function 'get_all_messages()' called.
+2023-10-17 23:47:56,170 - INFO - Successfully connected to the database.
+2023-10-17 23:47:56,235 - WARNING - No messages found in the database.
+2023-10-17 23:47:56,235 - INFO - Fetched column headers: id, source, subject, sender, recipients, content, footer, original_content, timestamp, attachments_path
+2023-10-17 23:47:57,240 - INFO - Function 'get_all_messages()' called.
+2023-10-17 23:47:57,240 - INFO - Successfully connected to the database.
+2023-10-17 23:47:57,241 - WARNING - No messages found in the database.
+2023-10-17 23:47:57,241 - INFO - Fetched column headers: id, source, subject, sender, recipients, content, footer, original_content, timestamp, attachments_path
+2023-10-18 00:39:14,924 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 00:43:31,169 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 00:45:10,508 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 00:45:30,840 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 00:46:03,979 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 00:57:49,200 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 01:06:50,095 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 01:11:03,124 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 01:12:19,776 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 01:14:21,007 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 01:14:40,015 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 01:14:50,042 - INFO - Function 'get_all_messages()' called.
+2023-10-18 01:14:50,043 - INFO - Successfully connected to the database.
+2023-10-18 01:14:50,075 - INFO - Successfully fetched 11 messages from the database.
+2023-10-18 01:14:50,076 - INFO - Fetched column headers: id, source, subject, sender, recipients, content, footer, original_content, timestamp, attachments_path
+2023-10-18 01:46:37,970 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 01:46:44,890 - INFO - Function 'get_all_messages()' called.
+2023-10-18 01:46:44,890 - INFO - Successfully connected to the database.
+2023-10-18 01:46:44,891 - INFO - Successfully fetched 11 messages from the database.
+2023-10-18 01:46:44,891 - INFO - Fetched column headers: id, source, subject, sender, recipients, content, footer, original_content, timestamp, attachments_path
+2023-10-18 01:56:51,487 - INFO - Function 'get_all_messages()' called.
+2023-10-18 01:56:51,488 - INFO - Successfully connected to the database.
+2023-10-18 01:56:51,490 - INFO - Successfully fetched 11 messages from the database.
+2023-10-18 01:56:51,490 - INFO - Fetched column headers: id, source, subject, sender, recipients, content, footer, original_content, timestamp, attachments_path
+2023-10-18 02:02:47,680 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 02:02:53,835 - INFO - Function 'get_all_messages()' called.
+2023-10-18 02:02:53,835 - INFO - Successfully connected to the database.
+2023-10-18 02:02:54,018 - ERROR - Error occurred while fetching messages: (sqlite3.OperationalError) no such table: messages
+[SQL: SELECT messages.id AS messages_id, messages.source AS messages_source, messages.subject AS messages_subject, messages.sender AS messages_sender, messages.recipients AS messages_recipients, messages.content AS messages_content, messages.footer AS messages_footer, messages.original_content AS messages_original_content, messages.timestamp AS messages_timestamp, messages.attachments_path AS messages_attachments_path 
+FROM messages]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-10-18 02:03:01,299 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 02:03:03,948 - INFO - Function 'get_all_messages()' called.
+2023-10-18 02:03:03,948 - INFO - Successfully connected to the database.
+2023-10-18 02:03:03,979 - ERROR - Error occurred while fetching messages: (sqlite3.OperationalError) no such table: messages
+[SQL: SELECT messages.id AS messages_id, messages.source AS messages_source, messages.subject AS messages_subject, messages.sender AS messages_sender, messages.recipients AS messages_recipients, messages.content AS messages_content, messages.footer AS messages_footer, messages.original_content AS messages_original_content, messages.timestamp AS messages_timestamp, messages.attachments_path AS messages_attachments_path 
+FROM messages]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-10-18 02:03:24,914 - INFO - Function 'get_all_messages()' called.
+2023-10-18 02:03:24,914 - INFO - Successfully connected to the database.
+2023-10-18 02:03:24,915 - ERROR - Error occurred while fetching messages: (sqlite3.OperationalError) no such table: messages
+[SQL: SELECT messages.id AS messages_id, messages.source AS messages_source, messages.subject AS messages_subject, messages.sender AS messages_sender, messages.recipients AS messages_recipients, messages.content AS messages_content, messages.footer AS messages_footer, messages.original_content AS messages_original_content, messages.timestamp AS messages_timestamp, messages.attachments_path AS messages_attachments_path 
+FROM messages]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-10-18 02:03:57,507 - INFO - Function 'get_all_messages()' called.
+2023-10-18 02:03:57,508 - INFO - Successfully connected to the database.
+2023-10-18 02:03:57,509 - INFO - Successfully fetched 11 messages from the database.
+2023-10-18 02:03:57,509 - INFO - Fetched column headers: id, source, subject, sender, recipients, content, footer, original_content, timestamp, attachments_path
+2023-10-18 02:16:15,751 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 02:16:20,657 - INFO - Function 'get_all_messages()' called.
+2023-10-18 02:16:20,657 - INFO - Successfully connected to the database.
+2023-10-18 02:16:20,665 - INFO - Successfully fetched 11 messages from the database.
+2023-10-18 02:16:20,666 - INFO - Fetched column headers: id, source, subject, sender, recipients, content, footer, original_content, timestamp, attachments_path
+2023-10-18 02:29:32,803 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 02:38:31,609 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 02:38:35,708 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 02:44:43,552 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 02:46:04,057 - INFO - Function 'get_all_messages()' called.
+2023-10-18 02:46:04,062 - INFO - Successfully connected to the database.
+2023-10-18 02:46:04,104 - INFO - Successfully fetched 11 messages from the database.
+2023-10-18 02:46:04,104 - INFO - Fetched column headers: id, source, subject, sender, recipients, content, footer, original_content, timestamp, attachments_path
+2023-10-18 02:46:40,374 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 02:46:52,326 - INFO - queries.py module loaded. Logger configuration initialized.
+2023-10-18 02:46:52,377 - INFO - Function 'get_all_messages()' called.
+2023-10-18 02:46:52,377 - INFO - Successfully connected to the database.
+2023-10-18 02:46:52,384 - INFO - Successfully fetched 11 messages from the database.
+2023-10-18 02:46:52,384 - INFO - Fetched column headers: id, source, subject, sender, recipients, content, footer, original_content, timestamp, attachments_path

@@ -1,0 +1,127 @@
+Zbudować system na tym oparty, który ogarnia kluczowe elementy ekosystemie
+
+Może przepisać logikę na C++
+
+-----------------------------------------------------------
+
+Użycie menedżera procesów, takiego jak `Supervisor`, jest przydatne, szczególnie w kontekście Twojego przypadku, gdzie masz skrypt (`log_monitor.py`), który powinien działać w tle, monitorując folder z logami na zmiany. 
+
+Oto kilka kluczowych korzyści z użycia `Supervisor`:
+
+### 1. Zapewnienie Nieprzerwanego Działania
+- `Supervisor` upewni się, że Twój skrypt do monitorowania logów jest zawsze uruchomiony, nawet jeśli wystąpią błędy lub awarie, ponieważ może automatycznie restartować Twój skrypt w przypadku jego awarii.
+  
+### 2. Zarządzanie Logami
+- `Supervisor` może przekierować i zarządzać strumieniami wyjściowymi (`stdout`) oraz błędów (`stderr`) twojego skryptu, co ułatwia debugowanie i monitorowanie, przechowując logi w określonych plikach.
+
+### 3. Zarządzanie Procesem
+- Możliwość łatwego kontrolowania stanu skryptu (start, stop, restart) za pomocą komend linii poleceń.
+  
+### 4. Zarządzanie Zależnościami
+- Możesz skonfigurować `Supervisor` tak, aby uruchamiał Twój skrypt po uruchomieniu systemu, co zapewnia, że monitorowanie logów zaczyna działać, gdy serwer jest uruchomiony.
+
+### Przykład Użycia w Kontekście Twojego Projektu
+Rozważmy przykładowy proces konfiguracji i użycia `Supervisor` dla Twojego skryptu `log_monitor.py`:
+
+#### Instalacja Supervisora
+Jeśli nie masz jeszcze zainstalowanego Supervisora, możesz go zainstalować używając menedżera pakietów systemu Linux. Na przykład dla systemów bazujących na Debianie (jak Ubuntu):
+
+```bash
+sudo apt-get update
+sudo apt-get install supervisor
+```
+
+#### Konfiguracja Supervisora dla `log_monitor.py`
+Utwórz plik konfiguracyjny dla `log_monitor.py` w katalogu konfiguracyjnym Supervisora:
+
+```bash
+sudo nano /etc/supervisor/conf.d/log_monitor.conf
+```
+
+Dodaj następującą konfigurację, dostosowując ścieżkę do skryptu oraz plików logów:
+
+```ini
+[program:log_monitor]
+command=python3 /path/to/your/logs/log_monitor.py  ; command to run the script
+autostart=true       ; start at supervisord startup
+autorestart=true     ; restart at unexpected exit
+stderr_logfile=/var/log/log_monitor.err.log  ; stderr log path
+stdout_logfile=/var/log/log_monitor.out.log  ; stdout log path
+```
+
+#### Kontrolowanie Procesu za pomocą Supervisora
+Po dodaniu konfiguracji, poinformuj `Supervisor` o nowej konfiguracji i uruchom proces:
+
+```bash
+sudo supervisorctl reread  ; read the new configuration
+sudo supervisorctl update  ; update and start processes
+sudo supervisorctl start log_monitor  ; start the log_monitor process
+```
+
+Teraz, `Supervisor` będzie zarządzał Twoim procesem `log_monitor.py`, dbając o to, aby był zawsze uruchomiony i zbierał logi odpowiednio. W przypadku jakichkolwiek problemów, logi błędów i standardowe wyjście będą przechowywane w określonych plikach, co ułatwi debugowanie.
+
+
+Tak, możesz uruchomić `log_monitor.py` przy użyciu polecenia `python3 log_monitor.py`. Skrypt ten będzie działał w tle i monitorował zmiany w folderze z logami. Aby uczynić to bardziej produkcyjnym rozwiązaniem, możesz również rozważyć kilka innych opcji:
+
+### 1. Użycie `screen` lub `tmux` na serwerze Linux:
+Możesz użyć `screen` lub `tmux`, aby utworzyć nową sesję terminala, która będzie działać w tle nawet po zamknięciu głównej sesji SSH. Na przykład:
+
+```bash
+screen -S log_monitor
+python3 log_monitor.py
+```
+
+Następnie możesz odłączyć się od sesji `screen`, naciskając `CTRL` + `A`, a następnie `D`. Możesz wrócić do sesji w dowolnym momencie, wpisując `screen -r log_monitor`.
+
+### 2. Użycie menedżera procesów:
+Możesz użyć menedżera procesów, takiego jak `Supervisor` lub `systemd`, aby utrzymać proces działający i automatycznie restartować go po awarii lub ponownym uruchomieniu systemu.
+
+#### Przykład konfiguracji `Supervisor`:
+Stwórz plik konfiguracyjny dla swojego procesu, np. `/etc/supervisor/conf.d/log_monitor.conf`:
+
+```ini
+[program:log_monitor]
+command=python3 /path/to/logs/log_monitor.py
+autostart=true
+autorestart=true
+stderr_logfile=/var/log/log_monitor.err.log
+stdout_logfile=/var/log/log_monitor.out.log
+```
+Następnie zaktualizuj `supervisor` i uruchom proces:
+
+```bash
+sudo supervisorctl reread
+sudo supervisorctl update
+sudo supervisorctl start log_monitor
+```
+
+#### Przykład konfiguracji `systemd`:
+Stwórz plik jednostki systemd, np. `/etc/systemd/system/log_monitor.service`:
+
+```ini
+[Unit]
+Description=Log Monitor
+
+[Service]
+ExecStart=/usr/bin/python3 /path/to/logs/log_monitor.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Włącz i uruchom usługę:
+
+```bash
+sudo systemctl enable log_monitor
+sudo systemctl start log_monitor
+```
+
+### 3. Uruchomienie w tle za pomocą `nohup`:
+Możesz też uruchomić skrypt w tle przy użyciu `nohup`, co pozwoli na kontynuowanie pracy po zamknięciu sesji terminala.
+
+```bash
+nohup python3 log_monitor.py &
+```
+
+Wszystkie te metody umożliwiają uruchomienie skryptu w tle i utrzymanie go działającego przez dłuższy czas, nawet po zamknięciu sesji terminala lub wylogowaniu się. Wybór zależy od Twoich wymagań i preferencji.

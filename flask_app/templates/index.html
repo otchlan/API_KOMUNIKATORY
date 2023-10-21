@@ -18,9 +18,16 @@
         <tbody>
             {% for message in messages %}
                 <tr>
-                    {% for value in message %}
-                        <td>{{ value }}</td>
-                    {% endfor %}
+                    <td>{{ message.id }}</td>
+                    <td>{{ message.source }}</td>
+                    <td>{{ message.subject }}</td>
+                    <td>{{ message.sender }}</td>
+                    <td>{{ message.recipients }}</td>
+                    <td>{{ message.content }}</td>
+                    <td>{{ message.footer }}</td>
+                    <td>{{ message.original_content }}</td>
+                    <td>{{ message.timestamp }}</td>
+                    <td>{{ message.attachments_path }}</td>
                 </tr>
             {% endfor %}
         </tbody>
