@@ -1,4 +1,4 @@
-
+!! To repo jest otwartą częścią kodu Asystenta !!
 # Projekt Asystent
 [info o projekcie]
 
